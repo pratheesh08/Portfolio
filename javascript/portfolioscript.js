@@ -22,7 +22,7 @@ unhide.addEventListener('click',()=>{
 
 const download = document.querySelector(".button")
 const btn = document.querySelector(".btn")
-const file = "pdf/resume.pdf"
+const file = "pdf/PRATHEESH_B.E(CSE)_2023_reactjs.pdf"
 download.addEventListener('click', ()=>{
     console.log('clicked');
     btn.classList.add("btn-click")
