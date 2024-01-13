@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="PORTFOSTYLE.CSS">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+   
+    <div class="cont0">
+        <span><a href="#" class="logo">
+            <h2>Portfolio</h2></a>
+        </span>
+       
+       
+        <span class="nav" >
+            <ul >
+                <li><a href="">HOME</a></li>
+                <li><a href="#aboutme">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            
+        </span> 
+        <div class="hamburg">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <div class="con1">
+        <div class="mypic">
+          <img id="img1" data-aos="zoom-in" src=" portfoliopics/im2.png"> 
+          <img data-aos="zoom-in-up" src="portfoliopics/im1.png" alt="">
+        </div>
+        <div class="sub1" data-aos="fade-right">
+            <div class="heading">
+            <h4>Hi.. i'm</h4>
+            <h2 class="name">PRATHEESH KUMAR E</h2>
+            </div>
+            <div class="body">
+            <p>A <b>FRONT END DEVELOPER</b>  <b>UI/UX DESIGNER</b> and <b>GRAPHIC DESIGNER</b>
+                with passion of designing web and mobile interfaces
+
+            </p></div>
+
+            <span class="btn"> 
+            <a href="#" class="button" >
+                <i class="fa fa-download"></i>DOWNLOAD CV</a>
+            </span>
+        </div>
+    </div>
+
+    <div class="con2" id="aboutme">
+        <div class="image"
+         data-aos="fade-up"
+             data-aos-duration="400">
+            <img src="portfoliopics/1b8928159816431.63a6229970454.jpg" alt="">
+        </div>
+        <div class="content"
+         data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="400">
+            <h2>About Me</h2>
+            <div class="myself">
+                <P>  Hello! I'm <B>PRATHEESH KUMAR E</B>, an aspiring Front-End Developer, UI/UX Designer, and Graphic Designer eager to make my mark in the digital world. As a recent graduate, I bring fresh perspectives and a hunger to learn and grow.<span class="dot">............</span><span class="para"> I have a solid foundation in front-end technologies, a knack for creating visually appealing interfaces, and a passion for user-centric design. My journey is marked by curiosity, continuous learning, and a commitment to turning imaginative ideas into captivating digital experiences.
+                 I am excited to contribute my creativity and skills to projects that not only meet technical standards but also resonate with users on a meaningful level. Let's embark on this journey of innovation together!</P></span>
+                 <button id="readmore"><i class="uil uil-angle-double-down"></i></button>
+            </div>
+            <a href="#contact"  id="hireme">HIRE ME</a>
+           
+        </div>
+    </div> 
+   
+  
+    <div class="con3" id="services">
+        <h2>
+            SERVICES
+        </h2>
+        <div class="services">
+            <div class="box1" data-aos="flip-up">
+                <i class="uil uil-monitor"></i>
+                <h2>UI/UX DESIGN</h2>
+                <p>As a budding UI/UX designer, I bring a fresh and dynamic approach to crafting digital experiences
+                    . My passion lies in seamlessly blending aesthetics
+                     with functionality to create user interfaces that not only captivate but
+                      also intuitively guide users through a delightful journey</p>
+            </div>
+            <div class="box2" data-aos="flip-up">
+                <i class="uil uil-react"></i>
+                <h2>FRONT END DEVELOPMENT</h2>
+                <p> Excited to kickstart my journey as a Front-End Developer specializing in React.js! 
+                    . As a fresher, I bring a fresh perspective, commitment to quality,
+                     and a hunger to learn. Let's collaborate to bring your digital visions to life with efficiency and innovation.</p>
+            </div>
+            <div class="box3" data-aos="flip-up">
+                <i class="uil uil-brush-alt"></i>
+                <h2>GRAPHIC DESIGN</h2>
+            <p>Dive into a world of vibrant creativity with my Graphic Design service.
+                 As a fresh talent, I bring a blend of imagination and technical prowess, 
+                 specializing in crafting visually stunning designs using Photoshop and Illustrator.</p>
+            </div>
+            <div class="box4" data-aos="flip-up">
+                <i class="uil uil-award"></i>
+                <h2>FREELANCE</h2>
+                <p>As a freelancer, I'm excited to collaborate on projects that demand a 
+                    mix of technical expertise and creative finesse, 
+                    delivering tailored solutions that leave a lasting impact.
+                     Let's turn ideas into reality and make your digital presence stand out!<p>
+           
+            </div>
+
+        </div>
+    </div>
+    <div class="con4" id="contact">
+        <div class="info">
+            <div class="subdiv0" data-aos="zoom-out">
+                <form method="post">
+                    <h2>Send a Message</h2>
+                    <label for="name"> <i class="uil uil-user"></i>YOUR NAME</label>
+                    <input type="text" class="name" max="20" min="3" required>
+                
+                    <label for="email"><i class="uil uil-envelope"></i>YOUR EMAIL</label>
+                    <input type="email" class="email" required>
+                    <label for="companyname">COMPANY NAME</label>
+                    <input type="text" class="cpname">
+                    <label for="message">MESSAGE</label>
+                    <textarea type="text" class="message" required ></textarea>
+                    <button type="submit" onclick="sendmessage" class="send">SEND</button>
+            
+                </form>
+            </div>
+         <div class="subdiv2" data-aos="fade-right">
+            
+                <div class="coninfo">
+                         <h2>Contact Info</h2>
+                        <div class="content">
+                            <span class="location">
+                            <i class="uil uil-map-marker"></i><p>Chennai,Tamilnadu</p></span>
+                            <span class="mail">
+                                <a href="mailto:pratheeshkumar814@gmail.com"><i class="uil uil-fast-mail"></i>
+                            pratheeshkumar814@gmail.com</a></span>
+                            <span class="phone">
+                            <a href="tel"><i class="uil uil-phone-alt"></i>
+                            +91 9080051046</a></span>
+                        </div>
+                        <div class="icons">
+                            <i class="uil uil-linkedin"></i>
+                            <i class="uil uil-twitter"></i>
+                            <i class="uil uil-whatsapp"></i>
+                            <i class="uil uil-github"></i>
+                            <i class="uil uil-instagram"></i>
+                        </div>
+                </div> 
+         </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>copyright @2023</p>
+      </div>
+    
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+
+    <script src="javascript/portfolioscript.js"></script>
+   
+</body>
+</html>
